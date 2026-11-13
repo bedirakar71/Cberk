@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "cberkacik-helper",
+  "version": "1.0.0",
+  "name": "cBerkacik Helper Mod",
+  "description": "Custom utility and helper tools for gameplay optimization.",
+  "authors": [
+    "cBerkacik"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/timechangerstruggle/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cberkacik.client.CBerkacikClient"
+    ]
+  },
+  "mixins": [
+    "cberkacik.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
